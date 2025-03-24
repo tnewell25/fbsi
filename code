@@ -1,5 +1,5 @@
 REM FBSI Script to code accounts with restriction 5R
-# use account RJL062723
+# use account RJL062723 "getting code command not valid when processing- aborting"
 TITLE Account Coding Script
 
 REM Connect to the mainframe session

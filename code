@@ -1,5 +1,5 @@
 REM FBSI Script to code accounts with restriction 5R
-
+# use account RJL062723
 TITLE Account Coding Script
 
 REM Connect to the mainframe session
@@ -7,7 +7,7 @@ CONNECT "SessionA"
 HLLAPISESSIONID A
 
 REM Open the Excel file and read account numbers
-GETFILE "C:\Path\To\Accounts.xlsx", Sheet1, A2
+GETFILE ""C:\Users\ThomasNewell\OneDrive - Rockefeller Capital Management\Documents\test restricion script\restrictions.xlsx"", Sheet1, A2
 
 REM Start the coding process
 VAR i = 2
